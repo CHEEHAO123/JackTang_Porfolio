@@ -1,0 +1,14 @@
+2026-10-17 17:34:29 | START | task: replace resume with Jack_Tang_Resume.pdf, redesign app | plugins: none
+2026-10-17 17:34:49 | READ | Jack_Tang_Resume.pdf via pdftotext
+2026-10-17 17:35:12 | READ | lib/ sources (home, theme, widgets, sections)
+2026-10-17 17:36:14 | WRITE | models.dart, portfolio_data.dart (Tang Sew Peng content)
+2026-10-17 17:36:14 | COPY | Jack_Tang_Resume.pdf -> assets/resume/Tang_Sew_Peng_Resume.pdf
+2026-10-17 17:36:15 | DELETE | assets/resume/Foong_Chee_Hao_Resume.pdf, assets/images/profile.png, lib/sections/projects_section.dart, about_section.dart
+2026-10-17 17:37:02 | WRITE | theme, section_heading/container, social_links, hero_section, summary_section; edit skills_section, pubspec
+2026-10-17 17:37:54 | WRITE | experience/education/contact sections; edit home_screen, nav_bar (active section), web/index.html, manifest.json
+2026-10-17 17:43:34 | VERIFY | flutter analyze: no issues; flutter test: pass; flutter build web: OK; README updated
+2026-10-17 17:43:34 | DONE | no plugins/skills/subagents used
+2026-10-17 18:00:13 | EXTRACT | profile photo from Jack_Tang_Resume.pdf page 1 -> assets/images/profile.png
+2026-10-17 18:00:13 | EDIT | hero_section (photo), nav_bar (photo), pubspec, portfolio_data
+2026-10-17 18:11:31 | EDIT | .firebaserc, workflows, README -> project 'tang', repo CHEEHAO123/JackTang_Porfolio
+2026-10-17 18:21:32 | EDIT | firebase project id -> tang-39100 (.firebaserc, workflows, README)
